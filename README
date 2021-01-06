@@ -1,0 +1,39 @@
+
+"Choose Your Own" (CYO) Project
+edX / HarvardX PH125.9x 'Data Science: Capstone'
+
+Report title: "2020 US Presidential Elections: The Swing States"
+
+The submission contains the three files
+1.) "2020_US_Presidential_Elections.R" contains the R-code (data wrangling and complete analysis)
+2.) "2020_US_Presidential_Elections.Rmd" creates the report (here as pdf)
+3.) "2020_US_Presidential_Elections.pdf" contains the detailed project report
+
+The folder "Data" contains three input files
+A.) "county_statistics.csv"
+B.) "countypres_2000-2016.csv"
+C.) "president_county_candidate.csv"
+
+The sources are described below and in the pdf report.
+
+NOTE: The "Data" folder is required. Please run the "2020_US_Presidential_Elections.R" first. It will save the merged dataset as .rds file. The .Rmd file will read the .rds file.
+
+Sources:
+File "Data/county_statistics.csv"
+Source: Kaggle
+Data set "Election, COVID, and Demographic Data by County"
+Link: https://www.kaggle.com/etsc9287/2020-general-election-polls
+Copyright label: "CC0: Public Domain"
+
+File "Data/president_county_candidate.csv"
+Source: Kaggle
+Data set "US ELection 2020"
+Link: https://www.kaggle.com/unanimad/us-election-2020
+Copyright label: "CC0: Public Domain"
+Version: 113
+
+File "Data/countypres_2000-2016.csv"
+Source: MIT Election Data + Science Lab (https://electionlab.mit.edu/data)
+Data set with votes 2000-2016, but using only 2016
+Link: "https://doi.org/10.7910/DVN/VOQCHQ"
+
